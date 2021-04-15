@@ -2,6 +2,7 @@
 
 | Command                                                                 | Usage | Freq |
 |:----------------------------------------------------------------------- | :---- | :--- |
+| `docker run -d -p 80:80 <image>`                                        | run an application using background (e.g. `-d`) | :heavy_check_mark: |
 | `docker container ls -a`                                                | list all running containers | :heavy_check_mark: |
 | `docker container rm <container id1> <container id1>`                   | remove specific container(s) | :heavy_check_mark: |
 | `docker container ls -a --filter status=exited --filter status=created` | remove exited containers |  |
